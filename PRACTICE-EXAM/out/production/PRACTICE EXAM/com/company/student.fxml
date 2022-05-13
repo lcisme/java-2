@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.StudentCTL">
+   <content>
+      <AnchorPane prefHeight="600.0" prefWidth="780.0">
+         <children>
+            <Text layoutX="300.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students List" textAlignment="CENTER" wrappingWidth="180.205078125">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <TableView fx:id="tbStudent" layoutX="62.0" layoutY="138.0" prefHeight="440.0" prefWidth="699.0">
+              <columns>
+                <TableColumn fx:id="cID" prefWidth="151.0" text="EnrolID" />
+                <TableColumn fx:id="cFN" prefWidth="331.0" text="Ful Name" />
+                  <TableColumn fx:id="cAge" prefWidth="216.0" text="Age" />
+              </columns>
+            </TableView>
+            <Button layoutX="704.0" layoutY="63.0" mnemonicParsing="false" onAction="#addstudent" text="Add" />
+            <Button layoutX="62.0" layoutY="63.0" mnemonicParsing="false" onAction="#back" prefHeight="39.0" prefWidth="109.0" text="&lt;&lt; Back" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

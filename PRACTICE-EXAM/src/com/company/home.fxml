@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.HomeCTL">
+   <children>
+      <Button layoutX="290.0" layoutY="58.0" mnemonicParsing="false" onAction="#addstudent" prefHeight="178.0" prefWidth="293.0" text="Add Student">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Text layoutX="357.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" textAlignment="CENTER" wrappingWidth="159.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Button onAction="#viewstudent" layoutX="290.0" layoutY="328.0" mnemonicParsing="false" prefHeight="178.0" prefWidth="293.0" text="View Student">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="com.company.AddStudentCTL" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="313.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Student" textAlignment="CENTER" wrappingWidth="174.205078125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="enrolID" layoutX="288.0" layoutY="149.0" promptText="EnrolID" />
+      <TextField fx:id="firstName" layoutX="288.0" layoutY="219.0" promptText="FirstName" />
+      <TextField fx:id="lastName" layoutX="288.0" layoutY="300.0" promptText="LastName" />
+      <TextField fx:id="age" layoutX="288.0" layoutY="383.0" promptText="Age" />
+      <Button onAction="#back" layoutX="50.0" layoutY="56.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="114.0" text=" &lt;&lt; Back" />
+      <Button onAction="#viewstudent" layoutX="435.0" layoutY="456.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="77.0" text="View" />
+      <Button onAction="#submit" layoutX="285.0" layoutY="456.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="67.0" text="Add" />
+   </children>
+</Pane>
